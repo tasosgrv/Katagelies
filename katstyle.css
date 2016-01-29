@@ -1,0 +1,157 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 11, 2015, 5:06:30 PM
+    Author     : tasosg4
+*/
+
+*{                 /*Μηδενίζει τις default τιμές που βάζουν οι brownsers!!*/  
+   margin: 0px;
+   padding: 0px;
+}
+
+header, nav, section, article, footer{
+    display: block;
+}
+
+body{
+    background: #dedede;
+    text-align: center;
+}
+
+#base{
+    
+    width: 1000px;
+    margin: 0px auto;
+    text-align: left;
+    background-color: white;
+}
+
+#header{
+    padding: 4px;
+    background-color: #5abfff;    
+}
+
+
+/* */
+
+#menu {
+list-style: none;
+margin: 0;
+padding: 7px 0;
+border-bottom: 1px solid #CCC;
+font-weight: bold;
+text-align: left;
+white-space: nowrap;
+}   
+#menu li {
+display: inline;
+margin: 0 3px;
+}
+#menu a {
+text-decoration: none;
+padding: 0 0 3px;
+border-bottom: 4px solid white;
+color: #999;
+}
+#menu a#current {
+border-color: #F60;
+color:#06F
+}
+#menu a:hover {
+border-color: #F60;
+color: #666;
+}
+
+/* */
+
+#main{
+    float: left;
+    width: 680px;
+    margin: 20px;
+    padding: 4px;
+}
+
+#main article:nth-child(odd){
+    background-color: gainsboro;
+}
+
+article{
+    background-color: #f5dcc0;
+    margin-bottom: 10px;
+    padding: 4px;
+}
+
+#aside{
+    float: left;
+    width: 220px;
+    margin: 20px;
+    padding: 4px;
+    background: #94fefe;
+}
+
+#aside h1{
+    font: bold 18px cursive;
+}
+
+aside ul{
+    list-style: none;
+}
+
+#aside li{
+    display: inline;
+}
+
+#aside img:hover{
+    opacity: 0.7;
+    box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.75);
+}
+
+#footer{
+    clear:both;
+    border-top: 1px solid white;
+    background-color: #626262;
+    text-align: center;
+    padding: 15px;
+}
+
+#footer h1{    
+    font-size: 20px;
+    color: white;
+}
+
+#footer p{
+    padding-left: 15px;
+    font-style:italic;
+    color: white;
+}
+
+
+
+fieldset{
+    background-color: gainsboro;
+    border: none;
+    text-align: center;
+    padding: 4px;
+}
+
+
+.table{
+    background-color: gainsboro;
+    width: 600px;
+}
+
+button{
+    color: white;
+    background-color: royalblue;
+    border-radius: 10px 10px 10px 10px;
+}
+
+button:hover{
+    color: white;
+    background-color: #FF0000;  
+    box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.75);
+}
