@@ -60,7 +60,7 @@
                         </select>
                         <p>
                         Καταγγελία:<br>
-                        <textarea name="keimeno" rows="3" cols="70" maxlength="500"></textarea><br>
+                        <textarea name="keimeno" rows="3" cols="70" maxlength="2500"></textarea><br>
                         <button type="submit" name="submit">Αποστολή</button>
                         <button type="reset">Καθαρισμός</button><br> 
                     </form>
@@ -97,7 +97,7 @@
                         </select>
                         <p>
                         Καταγγελία:<br>
-                        <textarea name="keimeno" rows="3" cols="70" maxlength="500"></textarea><br>
+                        <textarea name="keimeno" rows="3" cols="70" maxlength="2500"></textarea><br>
                         <button type="submit" name="submit">Αποστολή</button>
                         <button type="reset">Καθαρισμός</button><br>
                     </form>
