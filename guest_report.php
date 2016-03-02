@@ -14,7 +14,7 @@
             $email = mysqli_real_escape_string($connect, $_POST['email']);
             $text = mysqli_real_escape_string($connect, $_POST['keimeno']);
             $sub_id = $_POST['subjects'];
-				$guest_id=rand(1,10000);            
+			$guest_id=rand(1,10000);            
             $user='guest'.$guest_id; 
             $date=date(DATE_ISO8601);
             
