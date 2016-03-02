@@ -2,7 +2,7 @@
 
     define('DB_HOST', 'mysql2.000webhost.com');
     define('DB_USER', 'a3338802_user');
-    define('DB_PASS', 'otinanai4.');
+    define('DB_PASS', '#########');
     define('DB_NAME', 'a3338802_kat');
     
 
