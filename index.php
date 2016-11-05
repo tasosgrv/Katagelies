@@ -90,7 +90,7 @@ include('db_connect.php');
                                 . "Date: ".$posts['date'];
                                 ?>
                             
-                            <p><?php echo "<br>".$posts['text']. "<br><br>"?></p>
+                            <p><?php echo "<br>".$posts['text']. " <br><br>"?></p>
                             
                         
                                 <!--DELETE BUTTON START -->
