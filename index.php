@@ -13,8 +13,9 @@ include('db_connect.php');
         <title>Hlektronikh yphresia katageliwn - Αρχική</title>
         <link rel="icon" type="image/ico" href="/Katagelies/img/favicon.ico"/>
         <link rel="stylesheet" href="/Katagelies/katstyle.css">
+        <script type="text/javascript" src="/Katagelies/script.js"></script>	
     </head>
-    <body>
+    <body onload="ChangeToLink()">
         <div id="base">
             <header id="header">
                 <h1>ΗΛΕΚΤΡΟΝΙΚΗ ΥΠΗΡΕΣΙΑ ΚΑΤΑΓΓΕΛΙΩΝ</h1>
