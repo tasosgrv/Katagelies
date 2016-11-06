@@ -95,8 +95,9 @@ article{
 #aside{
     float: left;
     width: 220px;
-    margin: 20px;
+    margin: 25px 750px;
     padding: 4px;
+    position: fixed;
     background: #94fefe;
 }
 
